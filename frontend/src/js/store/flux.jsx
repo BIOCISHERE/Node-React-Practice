@@ -2,7 +2,17 @@ import axios from "axios";
 const getState = ({ getStore, getActions, setStore }) => {
   return {
     store: {
+      cart: {},
+      cartSizes: {},
       message: ["test"],
+      id: null,
+      token: null,
+      user: null,
+      shipping: 1,
+      fullResponse: [],
+      womenProducts: [],
+      menProducts: [],
+      footwearProducts: [],
     },
     actions: {
       getMessage: async () => {
