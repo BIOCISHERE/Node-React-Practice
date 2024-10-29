@@ -75,8 +75,171 @@ const WomenProducts = () => {
   };
 
   return (
-    <div className="container-fluid">
-      <h1>Women Products</h1>
+    <div className="container-fluid my-1">
+      <div className="row">
+        <div className="col-2 border border-dark-subtle rounded-end">
+          <h4>Womenswear</h4>
+          <div className="container-fluid my-1">
+            <h6>Type Of Garment</h6>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="TshirtCheck"
+                onClick={() => setIsTShirt(!isTShirt)}
+              />
+              <label className="form-check-label" htmlFor="TshirtCheck">
+                T-shirts
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="SweatersCheck"
+                onClick={() => setIsSweaters(!isSweaters)}
+              />
+              <label className="form-check-label" htmlFor="SweatersCheck">
+                Sweaters
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="PantsCheck"
+                onClick={() => setIsPants(!isPants)}
+              />
+              <label className="form-check-label" htmlFor="PantsCheck">
+                Pants
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="DressesCheck"
+                onClick={() => setIsDresses(!isDresses)}
+              />
+              <label className="form-check-label" htmlFor="DressesCheck">
+                Dresses
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="JeansCheck"
+                onClick={() => setIsJeans(!isJeans)}
+              />
+              <label className="form-check-label" htmlFor="JeansCheck">
+                Jeans
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="PursesCheck"
+                onClick={() => setIsPurses(!isPurses)}
+              />
+              <label className="form-check-label" htmlFor="PursesCheck">
+                Purses
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="WalletsCheck"
+                onClick={() => setIsWallets(!isWallets)}
+              />
+              <label className="form-check-label" htmlFor="WalletsCheck">
+                Wallets
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="BeltsCheck"
+                onClick={() => setIsBelts(!isBelts)}
+              />
+              <label className="form-check-label" htmlFor="BeltsCheck">
+                Belts
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="ScarfsCheck"
+                onClick={() => setIsScarfs(!isScarfs)}
+              />
+              <label className="form-check-label" htmlFor="ScarfsCheck">
+                Scarfs
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="PantiesCheck"
+                onClick={() => setIsPanties(!isPanties)}
+              />
+              <label className="form-check-label" htmlFor="PantiesCheck">
+                Panties
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="BrasCheck"
+                onClick={() => setIsBras(!isBras)}
+              />
+              <label className="form-check-label" htmlFor="BrasCheck">
+                Bras
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="PantysCheck"
+                onClick={() => setIsPantys(!isPantys)}
+              />
+              <label className="form-check-label" htmlFor="PantysCheck">
+                Pantys
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input border border-dark"
+                type="checkbox"
+                value=""
+                id="SocksCheck"
+                onClick={() => setIsSocks(!isSocks)}
+              />
+              <label className="form-chek-label" htmlFor="SocksCheck">
+                Socks
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
